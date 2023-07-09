@@ -20,6 +20,14 @@
 
 body {
   margin: 0;
+  background-color: #33373E;
+
+}
+
+/* Wrapper */
+.page-wrapper{
+  color: #FFFFFF;
+  height: 100vh;
 }
 
 /* Navigation */
@@ -55,5 +63,26 @@ h4{
   font-size: 1.5rem;
   font-weight: 600;
 }
+/* Main */
+
+.main-container {
+  font-size: 1.5rem;
+  line-height: 2.5;
+  padding: 3rem 5rem;
+  background-image: url("./assets/react-img-grey.png");
+  background-repeat: no-repeat;
+  background-position: 45% -10%;
+}
 
 
+
+.main-title {
+  font-size: 3rem;
+  letter-spacing: -0.05rem;
+}
+
+.main-facts > li::marker {
+  /* content:'x  '; */
+  font-size: 1.4rem;
+  color:#61DAFB;
+}
