@@ -22,4 +22,38 @@ body {
   margin: 0;
 }
 
+/* Navigation */
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #21222A;
+  padding: 3rem 5rem;
+}
+
+#brand{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #61DAFB;
+}
+
+#react-logo{
+  height: 40px;
+  padding-right: 2rem;
+}
+
+.subtitle{
+  color: #DEEBF8;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight:600;
+}
+
+h4{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 
